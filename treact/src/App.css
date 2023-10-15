@@ -105,3 +105,16 @@ body {
 .Read_button:hover{
   background-color: rgb(215, 215, 250);
 }
+.Record{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Image{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}

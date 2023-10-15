@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./component/Header";
 import HomeBody from "./component/HomeBody";
+import TrackRecord from "./component/TrackRecord";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <HomeBody />
         </div>
       </div>
+      <TrackRecord/>
     </div>
   );
 }
