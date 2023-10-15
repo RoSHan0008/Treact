@@ -1,7 +1,12 @@
 import "./App.css";
+import Footer from "./component/Footer";
 import Header from "./component/Header";
 import HomeBody from "./component/HomeBody";
 import TrackRecord from "./component/TrackRecord";
+import Form from "./component/Form";
+import Love from "./component/Love";
+import Writing from "./component/Writing";
+import Services from "./component/Services";
 
 function App() {
   return (
@@ -12,7 +17,13 @@ function App() {
           <HomeBody />
         </div>
       </div>
-      <TrackRecord/>
+      <TrackRecord />
+      <Services></Services>
+      <Love></Love>
+      <Writing></Writing>
+      <Form></Form>
+      <Footer></Footer>
+
     </div>
   );
 }
